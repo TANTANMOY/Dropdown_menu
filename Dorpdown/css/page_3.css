@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:5%;
+}
+.fa-angle-down:before {
+    content: "\f107";
+    font-size: 24px!important;
+    padding-left: 2%!important; 
+    
+}
+#angle_icon{
+    position: absolute;
+    left:93%;
+     
+}
+.fa-angle-down:hover{
+    color:#0f0!important;
+    
+    }
+@media only screen and (max-width: 505px){
+
+    #angle_icon{
+        position: absolute;
+        left:95%;
+        transform: translateX(-20%);
+
+         
+    }
+}
+.container {
+    width: 57%;
+}
